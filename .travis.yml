@@ -1,0 +1,5 @@
+# it will make travis to quit with exit code 1 (so it errors)
+dist: bionic
+script:
+  - exit 0
+
